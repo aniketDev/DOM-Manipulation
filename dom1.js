@@ -27,7 +27,7 @@ let getItem = document.getElementById('header-text');
 
 //********** getElementByClassName ********//
 
-// let items = document.getElementsByClassName('list-group-item');
+let items = document.getElementsByClassName('list-group-item');
 // console.log(items);
 // console.log(items[1]);
 // items[1].textContent = 'hello';
@@ -40,7 +40,7 @@ let getItem = document.getElementById('header-text');
 
 //*********** getElementByTagName *************//
 
-// let li = document.getElementsByTagName('li');
+let li = document.getElementsByTagName('li');
 // console.log(li);
 // console.log(li[1]);
 // li[1].textContent = 'hello';
@@ -56,4 +56,3 @@ let getItem = document.getElementById('header-text');
 let header = document.querySelector('#header'); // any css selecter just like jQuery
 // console.log(header);
 // header.style.display = 'none';
-
