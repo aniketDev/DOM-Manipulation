@@ -53,6 +53,35 @@ let li = document.getElementsByTagName('li');
 
 //*********** querySelecter *************//
 
-let header = document.querySelector('#header'); // any css selecter just like jQuery
+let header = document.querySelector('#header'); // Any css selecter just like jQuery
 // console.log(header);
 // header.style.display = 'none';
+// let input = document.querySelector('input'); // selects only the first input
+// input.value = "helllo";
+
+// let submit = document.querySelector('input[type="submit"]');
+// submit.value = "SEND";
+
+// let item = document.querySelector('.list-group-item');
+// item.style.color = 'red'; // only 1st item will change
+
+// let lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'green';
+
+// let secondChild = document.querySelector('.list-group-item:nth-child(2)');
+// secondChild.style.color = 'blue';
+
+
+//*********** querySelecterAll *************// select multiple tags or class
+
+let titles = document.querySelectorAll('h2');
+// console.log(titles);
+// titles[0].textContent = "hello";
+
+// let odd = document.querySelectorAll('li:nth-child(odd)');
+// let even = document.querySelectorAll('li:nth-child(even)');
+
+// for (let i = 0; i < odd.length; i++) {
+//     odd[i].style.color = 'red';
+//     even[i].style.color = 'blue';
+// }
