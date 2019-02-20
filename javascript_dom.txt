@@ -1,0 +1,6 @@
+let element = document.GetELementById('element');
+element.innerText
+element.textContent
+element.innerHTML
+element.style.property = value;
+
