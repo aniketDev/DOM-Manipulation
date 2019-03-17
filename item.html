@@ -18,12 +18,23 @@
             Item Listner <span style="display: none">hide</span>
         </h2>
     </header>
-    <main class="container main">
+    <main class="container main" id="main">
         <section class="row add-item mb-3">
             <form class="col">
-                <div class="row form-group">
-                    <input type="text" class="form-control">
+                <div class="row">
+                    <div class="col form-group">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col form-group">
+                        <select class="form-control">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
                 </div>
+
+                <h3 id="textInput"></h3>
                 <input type="submit" class="row btn btn-success" value="Add Item">
             </form>
         </section>
@@ -40,11 +51,18 @@
                         <li class="list-group-item">Item 4</li>
                     </ul>
                 </div>
+                <div id="output"></div>
+                <br />
+                <button class="btn btn-dark btn-block" id="button">Click here</button>
             </div>
         </section>
+        <br>
+        <div id="box" style="width: 400px; height:200px; background: #ddd">
+            <h3>Hello</h3>
+        </div>
     </main>
 
-    <script src="js/dom2.js"></script>
+    <script src="js/dom3.js"></script>
 </body>
 
 </html>
